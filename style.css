@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.right-links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    width: 390px;
+    height: 240px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: #1F2937;
+    align-items: flex-start;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    flex-wrap: wrap;
+}
+
+.hero-descr {
+    flex-basis: 360px;
+    flex-shrink: 1;
+}
+
+.hero-descr h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.hero-descr p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 0;
+    padding-right: 24px;
+    flex-basis: 0;
+    flex-shrink: 1;
+}
+
+.hero-descr button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border-color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    border: #3882F6 3px solid;
+}
+
+.collector {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    justify-content: center;
+    gap: 96px;
+    flex-wrap: wrap;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card {
+    flex-basis: 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote .sign {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.caller {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    margin: 120px 240px;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.callup h1 {
+    margin-bottom: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.callup p {
+    margin-top: 8px;
+    color: white;
+}
+
+.caller button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: white 2px solid;
+    width: 96px;
+    height: 36px;
+    margin-bottom: 8px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
