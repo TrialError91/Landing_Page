@@ -2,13 +2,23 @@ body {
     margin: 0;
 }
 
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container.inside {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-shrink: 1;
+}
+
 .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
     background-color: #1F2937;
-    padding-left: 240px;
-    padding-right: 240px;
+    gap: 420px;
 }
 
 .right-links {
@@ -23,11 +33,14 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header h1 {
     font-size: 24px;
     color: #F9FAF8;
+    min-width: max-content;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-image {
@@ -35,21 +48,31 @@ a {
     height: 240px;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #1F2937;
+}
+
 .hero {
     display: flex;
-    justify-content: space-between;
-    padding-left: 240px;
-    padding-right: 240px;
+    justify-content: center;
     background-color: #1F2937;
     align-items: flex-start;
     padding-top: 96px;
     padding-bottom: 96px;
+    column-gap: 240px;
+    row-gap: 48px;
     flex-wrap: wrap;
 }
 
 .hero-descr {
+    min-width: min-content;
     flex-basis: 360px;
     flex-shrink: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-descr h1 {
@@ -58,6 +81,7 @@ a {
     color: #F9FAF8;
     margin-top: 0;
     margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-descr p {
@@ -67,6 +91,7 @@ a {
     padding-right: 24px;
     flex-basis: 0;
     flex-shrink: 1;
+    font-family: 'Roboto', sans-serif
 }
 
 .hero-descr button {
@@ -76,6 +101,7 @@ a {
     border-radius: 8px;
     border-color: #1F2937;
     margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif
 }
 
 .card img {
@@ -96,42 +122,71 @@ a {
 
 .info h1 {
     text-align: center;
+    font-family: 'Roboto', sans-serif
 }
 
 .card p {
     text-align: center;
     margin-top: 8px;
+    font-family: 'Roboto', sans-serif
 }
 
 .card {
     flex-basis: 0;
 }
 
+.quote-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #E5E7EB;
+}
+
 .quote {
     background-color: #E5E7EB;
-    padding-left: 360px;
-    padding-right: 360px;
     padding-top: 96px;
     padding-bottom: 96px;
+    text-align: center;
+    width: 720px;
 }
 
 .quote .text {
     font-size: 36px;
     color: #1F2937;
+    font-family: 'Roboto', sans-serif
 }
 
 .quote .sign {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+    font-family: 'Roboto', sans-serif
+}
+
+.caller-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.caller-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .caller {
     display: flex;
-    padding-left: 120px;
-    padding-right: 120px;
-    justify-content: space-between;
-    margin: 120px 240px;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+    row-gap: 36px;
+    column-gap: 96px;
     align-items: center;
     background-color: #3882F6;
     border-radius: 15px;
@@ -142,11 +197,13 @@ a {
     margin-bottom: 0;
     font-size: 24px;
     color: white;
+    font-family: 'Roboto', sans-serif
 }
 
 .callup p {
     margin-top: 8px;
     color: white;
+    font-family: 'Roboto', sans-serif
 }
 
 .caller button {
@@ -157,6 +214,7 @@ a {
     width: 96px;
     height: 36px;
     margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif
 }
 
 .footer {
@@ -165,5 +223,6 @@ a {
     color: white;
     padding-top: 36px;
     padding-bottom: 36px;
+    font-family: 'Roboto', sans-serif
 }
 
